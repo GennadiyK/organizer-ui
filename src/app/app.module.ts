@@ -6,12 +6,14 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import {AppHeaderComponent} from './shared/header/header.component';
+import {AppMainNavComponent} from './shared/main-nav/main-nav.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppHeaderComponent
+    AppHeaderComponent,
+    AppMainNavComponent
   ],
   imports: [
     BrowserModule,
